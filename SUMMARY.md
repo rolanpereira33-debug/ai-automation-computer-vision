@@ -19,7 +19,7 @@
   * [Data Collection, Sampling & Annotation](ai-automation-and-computer-vision/data-collection-sampling-and-annotation/README.md)
     * [What Makes Good Sports Data?](ai-automation-and-computer-vision/data-collection-sampling-and-annotation/what-makes-good-sports-data/README.md)
       * [Core Concepts](ai-automation-and-computer-vision/data-collection-sampling-and-annotation/what-makes-good-sports-data/core-concepts.md)
-      * [Page 1](ai-automation-and-computer-vision/data-collection-sampling-and-annotation/what-makes-good-sports-data/page-1.md)
+      * [Python Audit Script](ai-automation-and-computer-vision/data-collection-sampling-and-annotation/what-makes-good-sports-data/python-audit-script.md)
       * [Images, Pixels & Color Spaces](ai-automation-and-computer-vision/data-collection-sampling-and-annotation/what-makes-good-sports-data/images-pixels-and-color-spaces/README.md)
         * [Pixel Color Code Snippets](ai-automation-and-computer-vision/data-collection-sampling-and-annotation/what-makes-good-sports-data/images-pixels-and-color-spaces/pixel-color-code-snippets.md)
         * [Common Errors & Fixes](ai-automation-and-computer-vision/data-collection-sampling-and-annotation/what-makes-good-sports-data/images-pixels-and-color-spaces/common-errors-and-fixes.md)
