@@ -1,0 +1,7 @@
+---
+icon: laptop-slash
+---
+
+# Common Errors & Fixes
+
+<table data-header-hidden><thead><tr><th width="230.5999755859375" valign="top">Error</th><th valign="top">Cause</th><th valign="top"></th></tr></thead><tbody><tr><td valign="top"><mark style="color:$danger;">Image displays with wrong colours (red grass, blue sky)</mark></td><td valign="top">cv2.imread() returns BGR; Matplotlib expects RGB</td><td valign="top">Add: img_rgb = cv2.cvtColor(img_bgr, cv2.COLOR_BGR2RGB) before plt.imshow()</td></tr><tr><td valign="top"><mark style="color:$danger;">cv2.imread() returns None</mark></td><td valign="top">File path is wrong or image file not found</td><td valign="top">Check: print(os.path.exists('football_pitch.jpg')) — must return True</td></tr><tr><td valign="top"><mark style="color:$danger;">Mask is completely black</mark></td><td valign="top">HSV bounds are wrong for this image; S or V minimum too high</td><td valign="top">Print the HSV value of a pixel you can see is on the pitch and adjust bounds to match</td></tr><tr><td valign="top"><mark style="color:$warning;">Kit colour leaks into pitch mask</mark></td><td valign="top">Certain green kits fall inside the hue range</td><td valign="top">Narrow the Saturation minimum (grass is more saturated than many kits)</td></tr><tr><td valign="top"><mark style="color:$warning;">np.array() bounds error</mark></td><td valign="top">Bounds array has wrong number of values</td><td valign="top">Must be exactly [H, S, V] — 3 values each</td></tr></tbody></table>
