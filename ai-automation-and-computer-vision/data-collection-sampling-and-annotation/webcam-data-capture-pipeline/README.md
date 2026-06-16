@@ -1,3 +1,7 @@
+---
+icon: camera-web
+---
+
 # Webcam Data Capture Pipeline
 
 ### Learning Objectives

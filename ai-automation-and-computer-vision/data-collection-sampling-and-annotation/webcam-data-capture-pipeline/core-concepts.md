@@ -1,3 +1,7 @@
+---
+icon: qrcode
+---
+
 # Core Concepts
 
 ### Dataset Folder Structure

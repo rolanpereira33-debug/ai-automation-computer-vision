@@ -1,3 +1,7 @@
+---
+icon: code
+---
+
 # Python Audit Script
 
 After exploring Roboflow visually, whoever finishes early run this Python script on a downloaded YOLO-format dataset. It produces a class distribution bar chart and flags potential issues automatically.

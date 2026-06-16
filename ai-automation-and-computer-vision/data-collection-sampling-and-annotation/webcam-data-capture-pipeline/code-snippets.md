@@ -1,3 +1,7 @@
+---
+icon: code
+---
+
 # Code Snippets
 
 ### capture.py

@@ -1,3 +1,3 @@
 # Data Collection, Sampling & Annotation
 
-###
+The dataset was collected from football match images and videos obtained from publicly available sources and sports datasets. A representative sample of frames was selected to capture different game situations, camera angles, player positions, and lighting conditions. Each image was manually annotated using bounding boxes for four object classes: **player**, **ball**, **goal**, and **referee**. The annotations were saved in YOLO format and reviewed to ensure consistency and accuracy. Dataset auditing was then performed to analyze class distribution, identify missing labels, and detect class imbalance issues that could affect model performance.

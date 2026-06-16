@@ -1,5 +1,6 @@
 ---
 description: Roboflow, Python, Discussion
+icon: futbol
 ---
 
 # What Makes Good Sports Data?

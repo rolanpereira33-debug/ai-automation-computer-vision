@@ -1,3 +1,7 @@
+---
+icon: qrcode
+---
+
 # Core Concepts
 
 ### The 7 Data Quality Issues
