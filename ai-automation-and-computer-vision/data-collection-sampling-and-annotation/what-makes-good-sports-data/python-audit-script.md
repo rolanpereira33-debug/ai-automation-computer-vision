@@ -8,6 +8,10 @@ After exploring Roboflow visually, whoever finishes early run this Python script
 
 Ask rolan37 for the data. There should be some football players, refrees, balls and goal. Only then you will be able to conduct the audit on your dataset.
 
+Use the link or download one of your own from the roboflow universe.&#x20;
+
+{% embed url="https://drive.google.com/file/d/1IaRU84e2aUCczjJ0afRuORwk3p4jLm9v/view?usp=sharing" %}
+
 ```py
 //dataset_audit.py
 
